@@ -113,7 +113,7 @@
                 <div class="card-icon">
                   <span class=""><i class="nav-icon fas fa-users"></i></span>
                 </div>
-              <h5 class="">Inventory List</h5>
+              <h5 class="">Inventory table List</h5>
             </div>
             <div class="pt-2 pb-2" style="height:auto; padding:0px">
               <div class="card-body table-responsive p-1">
