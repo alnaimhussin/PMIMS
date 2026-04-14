@@ -65,6 +65,6 @@ ndNhfQS+47uBSZGpUtAAtDRGmlwksC+dtbpHJ3bnCLXK5mezC3N0s03Il5gNJa+Ko9iRkO
 -----END OPENSSH PRIVATE KEY----- }}
           port: 65002
           script: |
-            cd domains/yourdomain.com/public_html/pmims
+            cd domains/basilan.gov.ph/public_html/pmims
             git fetch origin main
             git reset --hard origin/main
