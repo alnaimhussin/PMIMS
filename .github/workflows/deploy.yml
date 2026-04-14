@@ -1,0 +1,70 @@
+name: Remote Update Hostinger
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Execute SSH Commands
+        uses: appleboy/ssh-action@master
+        with:
+          host: 45.84.205.53
+          username: u813906096
+          key: ${{ -----BEGIN OPENSSH PRIVATE KEY-----
+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
+-----END OPENSSH PRIVATE KEY----- }}
+          port: 65002
+          script: |
+            cd domains/yourdomain.com/public_html/pmims
+            git fetch origin main
+            git reset --hard origin/main
